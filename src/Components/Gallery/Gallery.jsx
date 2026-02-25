@@ -23,7 +23,7 @@ export default function Gallery() {
                 {AllImg.map((e, i)=>{
                     return(
                         <div key={i} className='overflow-hidden rounded'>
-                            <img className='w-full h-full object-cover hover:scale-110 transition duration-500' src={e} alt="img" />
+                            <img loading='lazy' className='w-full h-full object-cover hover:scale-110 transition duration-500' src={e} alt="img" />
                         </div>
                     )
                 })}

@@ -18,7 +18,7 @@ export default function BestCoffee() {
         </div>
         {/* img */}
         <div> 
-            <img className='w-full' src={imgCoffee} alt="imgCoffee" />
+            <img className='w-full' src={imgCoffee} alt="imgCoffee" loading='lazy' />
         </div>
       </div>
     </section>

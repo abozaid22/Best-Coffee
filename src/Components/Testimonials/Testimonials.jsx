@@ -44,35 +44,35 @@ export default function Testimonials() {
       >
         <SwiperSlide>
             <div className="flex flex-col items-center gap-4">
-                <img className="w-20 h-20 rounded-full" src={imgCbDv68iS} alt="imgCbDv68iS" />
+                <img loading='lazy' className="w-20 h-20 rounded-full" src={imgCbDv68iS} alt="imgCbDv68iS" />
                 <p className="text-lg">Amazing service and top-notch coffee!</p>
                 <h3 className="font-bold">- John Doe</h3>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className="flex flex-col items-center gap-4">
-                <img className="w-20 h-20 rounded-full" src={imgBjTSFPXC} alt="imgBjTSFPXC" />
+                <img loading='lazy' className="w-20 h-20 rounded-full" src={imgBjTSFPXC} alt="imgBjTSFPXC" />
                 <p className="text-lg">A perfect start to my day, every day.</p>
                 <h3 className="font-bold">- Jane Smith</h3>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className="flex flex-col items-center gap-4">
-                <img className="w-20 h-20 rounded-full" src={imgDxQ0dwHV} alt="imgDxQ0dwHV" />
+                <img loading='lazy' className="w-20 h-20 rounded-full" src={imgDxQ0dwHV} alt="imgDxQ0dwHV" />
                 <p className="text-lg">Best coffee shop in town!</p>
                 <h3 className="font-bold">- Emily Brown</h3>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className="flex flex-col items-center gap-4">
-                <img className="w-20 h-20 rounded-full" src={imgC4kCMyS9} alt="imgC4kCMyS9" />
+                <img loading='lazy' className="w-20 h-20 rounded-full" src={imgC4kCMyS9} alt="imgC4kCMyS9" />
                 <p className="text-lg">Friendly staff and great ambiance.</p>
                 <h3 className="font-bold">- Michael Green</h3>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className="flex flex-col items-center gap-4">
-                <img className="w-20 h-20 rounded-full" src={imgCpjWc7BS} alt="imgCpjWc7BS" />
+                <img loading='lazy' className="w-20 h-20 rounded-full" src={imgCpjWc7BS} alt="imgCpjWc7BS" />
                 <p className="text-lg">Love their specialty drinks!</p>
                 <h3 className="font-bold">- Sarah Johnson</h3>
             </div>

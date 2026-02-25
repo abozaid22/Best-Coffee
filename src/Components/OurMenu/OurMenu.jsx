@@ -61,7 +61,7 @@ export default function OurMenu() {
                     data.map((el) => {
                         return (
                             <div key={el.id} className="bg-[#1e1e1e] p-5 rounded-lg">
-                                <img className="w-40 rounded-md mb-4" src={el.img} alt="imgCold" title={el.title}/>
+                                <img loading='lazy' className="w-40 rounded-md mb-4" src={el.img} alt="imgCold" title={el.title}/>
                                 <h3 className="text-xl font-medium mb-2">{el.title}</h3>
                                 <p className="text-sm text-gray-400">{el.desc}</p>
                             </div>
