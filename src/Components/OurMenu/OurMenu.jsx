@@ -51,7 +51,7 @@ export default function OurMenu() {
   return (
     <>
     <section className="bg-[#252525]">
-        <div className="container gap-6 mx-auto md:px-0 px-3 py-8">
+        <div className="container gap-6 mx-auto lg:px-28 md:px-0 px-3 py-8">
             <div>
                 <h2 className=" text-3xl font-bold text-center">Our Menu</h2>
                 <div className="bg-orange-400 w-24 h-0.5 mt-2 mx-auto"></div>

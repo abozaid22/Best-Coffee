@@ -13,7 +13,7 @@ export default function Gallery() {
   return (
     <>
     <section>
-        <div className='container gap-6 mx-auto md:px-0 px-3 py-8'>
+        <div className='container gap-6 lg:px-28 mx-auto md:px-0 px-3 py-8'>
             <div>
                 <h2 className=" text-3xl font-bold text-center">Gallery</h2>
                 <div className="bg-orange-400 w-24 h-0.5 mt-2 mx-auto"></div>

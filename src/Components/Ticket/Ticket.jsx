@@ -3,7 +3,7 @@
 export default function Ticket() {
   return (
     <section>
-      <div className='container gap-5 mx-auto grid grid-cols-1 sm:grid-cols-[2fr_1fr] py-7'>
+      <div className='container gap-5 lg:px-28 mx-auto grid grid-cols-1 sm:grid-cols-[2fr_1fr] py-7'>
 
         <div className='w-full text-sm gap-6 mx-auto px-5 py-8 bg-[#1E1E1E] '>
           <h2 className='px-2 text-3xl text-[#FDBA74] mb-4 font-bold'>Need Help? Open a Ticket</h2>

@@ -4,7 +4,7 @@ import imgCoffee from '../../assets/coffee-hero-section-BJrkd7KL.png'
 export default function BestCoffee() {
   return (
     <section>
-      <div className="container py-5 gap-6 mx-auto md:px-0 px-3 grid grid-cols-1 md:grid-cols-2">
+      <div className="container py-5 gap-6 mx-auto md:px-0 lg:px-28 px-3 grid grid-cols-1 md:grid-cols-2">
         {/* text */}
         <div className=" space-y-6 py-5 self-center"> 
             <h1 className='text-orange-300 text-4xl font-bold'>Best Coffee</h1>

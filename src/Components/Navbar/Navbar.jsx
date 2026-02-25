@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <>
       <nav className='fixed top-0 left-0 right-0 z-50 bg-[#3F181C]'>
-        <div className="container  py-4 px-2 mx-auto flex justify-between items-center">
+        <div className="container lg:px-28 py-5 px-2 mx-auto flex justify-between items-center">
             {/* 💻 desktop 💻 */}
             <div className='flex'>
                 <img className='w-10 me-2' src={imgCoffe} alt="imgCoffe" />
@@ -48,7 +48,7 @@ export default function Navbar() {
                     <li className='p-1 mx-2 rounded hover:bg-amber-900 transition duration-400'><NavLink onClick={()=>setOpen(false)} to="">Pricing</NavLink></li>
                 </ul>
 
-                <button onClick={()=>setOpen(false)} className='mt-5 py-2 px-5 cursor-pointer border border-white rounded hover:border-orange-400 hover:text-orange-400 transition duration-400'>Get Started</button>
+                <button onClick={()=>setOpen(false)} className='mt-5 py-2 px-5 ms-4 cursor-pointer border border-white rounded hover:border-orange-400 hover:text-orange-400 transition duration-400'>Get Started</button>
             </div>
             
         </div>
