@@ -27,7 +27,7 @@ export default function ScrollTopButton() {
   return (
     <>
     {scroll && <button onClick={toTop} title="Scroll To Top" className="fixed bottom-10 right-5 p-2 rounded-full border border-orange-500 bg-orange-500/20 hover:bg-[#bb5309] transition duration-200 cursor-pointer">
-        <FaArrowUp />
+        <FaArrowUp className="animate-pulse" />
         </button>}
     </>
   )
